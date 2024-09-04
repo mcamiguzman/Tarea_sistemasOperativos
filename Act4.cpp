@@ -19,18 +19,16 @@ public:
         : opcode(op), operand1(op1), operand2(op2), operand3(op3) {}
 };
 
-// Registros
 int ACC = 0;  
 int ICR = 0;  
 int MAR = 0;  
 int MDR = 0;  
 int UC = 0;   
 
-// Memoria principal
+// Main memory
 const int MEMORY_SIZE = 100;
 int memory[MEMORY_SIZE] = {0};
 
-// Funciones auxiliares
 Opcode getOpcode(const string& str);
 void executeInstruction(const Instruction& instr);
 vector<Instruction> loadProgram(const string& filename);

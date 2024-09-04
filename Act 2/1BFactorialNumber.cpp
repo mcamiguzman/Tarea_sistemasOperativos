@@ -1,4 +1,6 @@
 #include <iostream>
+using namespace std;
+
 class FactorialNumber
 {
 public:
@@ -13,10 +15,10 @@ public:
 int main() {
     int number;
     int result;
-    std::cout << "Enter a number: ";
-    std::cin >> number;
+    cout << "Enter a number: ";
+    cin >> number;
     FactorialNumber calculator;
     result = calculator.factorial(number);
-    std::cout << "Factorial of " << number << " is " << result << std::endl;
+    cout << "Factorial of " << number << " is " << result << std::endl;
     return 0;
 }

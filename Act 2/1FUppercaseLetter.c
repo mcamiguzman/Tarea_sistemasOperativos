@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <ctype.h>
 
-// Define a struct to hold the character
 struct Character {
     char value;
 };

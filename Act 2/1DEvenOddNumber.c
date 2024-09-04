@@ -6,9 +6,9 @@ struct Number {
 
 void check_even_odd(struct Number n) {
     if (n.value % 2 == 0)
-        printf("%d is even.\n", n.value);
+        printf("Is even.\n");
     else
-        printf("%d is odd.\n", n.value);
+        printf("Is odd.\n");
 }
 
 int main() {

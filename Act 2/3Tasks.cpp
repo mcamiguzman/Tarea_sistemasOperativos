@@ -3,7 +3,6 @@
 
 class PrimeChecker {
 public:
-    // Method to check if a number is prime
     bool isPrime(int num) {
         if (num <= 1) return false;
         if (num == 2 || num == 3) return true;
@@ -14,7 +13,6 @@ public:
         return true;
     }
 
-    // Method to find prime numbers in a list
     std::vector<int> findPrimesInList(const std::vector<int>& numbers) {
         std::vector<int> primes;
         for (int num : numbers) {
@@ -25,7 +23,6 @@ public:
         return primes;
     }
 
-    // Method to find prime numbers within a specified range
     std::vector<int> findPrimesInRange(int start, int end) {
         std::vector<int> primes;
         for (int i = start; i <= end; i++) {

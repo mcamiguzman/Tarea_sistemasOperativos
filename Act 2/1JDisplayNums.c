@@ -10,10 +10,8 @@ void display_formats(struct Number n) {
 
 int main() {
     struct Number num;
-    
     for (num.value = 1; num.value <= 10; num.value++) {
         display_formats(num);
     }
-    
     return 0;
 }
